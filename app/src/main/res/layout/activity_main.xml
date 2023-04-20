@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearMain"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edWeight"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:ems="15"
+        android:hint="@string/edWeight_Hnt"
+        android:height="50dp"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:id="@+id/edHeightFt"
+        android:height="50dp"
+        android:hint="@string/edHeight_ft"
+        android:layout_marginTop="10dp"
+
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:id="@+id/edHeightInch"
+        android:hint="@string/edHeight_Inch"
+        android:layout_marginTop="10dp"
+        android:inputType="number"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+
+        android:capitalize="none"
+        android:text="@string/btn1_Text"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv1"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BMI Meter</string>
+    <string name="edWeight_Hnt">Weight in Kg</string>
+    <string name="edHeight_ft">Height in ft</string>
+    <string name="edHeight_Inch">Height in Inches</string>
+    <string name="btn1_Text">Submit</string>
+    <string name="tv1">Result</string>
+    <string name="hm1">You are healthy</string>
+    <string name="uv1">You are underweight</string>
+    <string name="ov1">You are overweight</string>
+
+
+
+
+
+
+</resources>
